@@ -99,8 +99,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #2e3141;
-		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+		background-color: #45558d;
 		background-size: auto, cover;
 		background-attachment: fixed, fixed;
 		background-position: center, center;
@@ -272,7 +271,7 @@ input, select, textarea {
 		}
 
 	h2 {
-		font-size: 1.2em;
+		font-size: 1.6em;
 	}
 
 	h3 {
@@ -2317,7 +2316,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #4c5c96;
+			border-color: #3f4e85;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2738,11 +2737,11 @@ input, select, textarea {
 			}
 
 				ul.pagination li > .page:hover {
-					background-color: rgba(255, 255, 255, 0.025);
+					background-color: #203236;
 				}
 
 				ul.pagination li > .page.active {
-					background-color: #4c5c96;
+					background-color: #a7a7a7;
 				}
 
 			ul.pagination li:first-child {
@@ -2910,7 +2909,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #4c5c96;
+			background-color: #3f4e85;
 			box-shadow: none;
 		}
 
@@ -2927,7 +2926,7 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #45558d;
+				background-color: #3f4e85;
 			}
 
 			input[type="submit"].primary.icon:before,
@@ -3073,7 +3072,7 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out;
-		background-color: rgba(53, 56, 73, 0.95);
+		background-color: #000000;
 		height: 3.5em;
 		left: 0;
 		line-height: 3.5em;
@@ -3091,6 +3090,7 @@ input, select, textarea {
 			transition: opacity 0.2s ease-in-out, visibility 0.2s;
 			border-bottom: 0;
 			font-size: 0.8em;
+			letter-spacing: 0.4em;
 			margin-bottom: 0;
 			opacity: 1;
 			visibility: visible;
@@ -3105,7 +3105,7 @@ input, select, textarea {
 			font-size: 0.8em;
 			font-weight: 700;
 			height: 3em;
-			letter-spacing: 0.1em;
+			letter-spacing: 0.3em;
 			line-height: 3em;
 			position: absolute;
 			right: 0.7em;
@@ -3278,7 +3278,7 @@ input, select, textarea {
 			-ms-transition: opacity 0.35s ease, -ms-transform 0.35s ease;
 			transition: opacity 0.35s ease, transform 0.35s ease;
 			-webkit-overflow-scrolling: touch;
-			background: #4c5c96;
+			background: #3f4e85;
 			border-radius: 5px;
 			display: block;
 			max-width: 100%;
@@ -3334,7 +3334,7 @@ input, select, textarea {
 				}
 
 					#menu .links li a:hover {
-						background: #45558d;
+						background: #3f4e85;
 					}
 
 		@media screen and (max-width: 736px) {
@@ -3398,7 +3398,7 @@ input, select, textarea {
 
 			#banner .logo .icon {
 				border-radius: 100%;
-				border: solid 2px rgba(255, 255, 255, 0.125);
+				border: solid 2px #45558d;
 				cursor: default;
 				display: inline-block;
 				font-size: 2em;
@@ -3427,7 +3427,8 @@ input, select, textarea {
 			filter: blur(0);
 			opacity: 1;
 			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
-			font-size: 2.25em;
+			font-size: 3.25em;
+			text-align: center;
 			margin-bottom: 0.8em;
 			padding-bottom: 0.4em;
 		}
@@ -3454,6 +3455,7 @@ input, select, textarea {
 			font-size: 1em;
 			font-weight: 200;
 			letter-spacing: 0.1em;
+			text-align: center;
 			line-height: 2;
 			text-transform: uppercase;
 		}
@@ -3462,8 +3464,7 @@ input, select, textarea {
 
 			#banner {
 				padding: 7em 0 8.25em 0 ;
-				background-color: #2e3141;
-				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+				background-color: #45558d;
 				background-size: auto, cover;
 				background-position: center, center;
 				margin-bottom: -6.5em;
@@ -3757,19 +3758,19 @@ input, select, textarea {
 			}
 
 		.wrapper.spotlight {
-			background-color: #4c5c96;
+			background-color: #3f4e85;
 		}
 
 			.wrapper.spotlight:before, .wrapper.spotlight:after {
-				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%234c5c96%3B' /%3E%3C/svg%3E");
+				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%233f4e85%3B' /%3E%3C/svg%3E");
 			}
 
 			.wrapper.spotlight:before {
-				box-shadow: inset 0 -1px 0 0 #4c5c96, 0 1px 0 0 #4c5c96;
+				box-shadow: inset 0 -1px 0 0 #3f4e85, 0 1px 0 0 #3f4e85;
 			}
 
 			.wrapper.spotlight:after {
-				box-shadow: inset 0 -1px 0 0 #4c5c96, 0 1px 0 0 #4c5c96;
+				box-shadow: inset 0 -1px 0 0 #3f4e85, 0 1px 0 0 #3f4e85;
 			}
 
 			.wrapper.spotlight .inner {
@@ -3810,7 +3811,7 @@ input, select, textarea {
 				-webkit-flex-direction: row-reverse;
 				-ms-flex-direction: row-reverse;
 				flex-direction: row-reverse;
-				text-align: right;
+				text-align: left;
 			}
 
 			.wrapper.spotlight:nth-child(2n - 1) .image {
